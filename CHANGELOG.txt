@@ -1,0 +1,22 @@
+/**1.0.4 - 2024.04.23**/
+- Updated: Update social icon telegram, pinterest, tick tok, new twitter icon
+- Updated: Update support
+- Update: Compatible with WP 6.5
+
+/**1.0.3 - 2023.10.10**/
+- Updated: Multiple templates for WPForms Lite
+- Fixed: table td padding
+- Updated: Update support version to 1.1.7
+
+/**1.0.2 - 2023.05.29**/
+- Fix: Custom CSS issue
+- Fix: Save blocks issue
+- Add: Hooks: emtmpl_register_post_type, emtmpl_block_register_post_type, emtmpl_setting_page_parent_slug
+- Updated: Compatible with WPForms Lite
+- Fix: Add attachment files
+
+/**1.0.1 - 2022.09.01**/
+- Fix: Sample dropdown is hidden
+
+/**1.0.0 - 2022.08.17**/
+~ The first released.

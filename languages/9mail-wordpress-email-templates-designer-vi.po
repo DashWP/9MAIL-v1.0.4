@@ -1,0 +1,1040 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 9MAIL - WordPress Email Templates Designer Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-16 04:41+0000\n"
+"PO-Revision-Date: 2022-09-29 08:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: 9mail-wordpress-email-templates-designer"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:17
+msgid "1 Column"
+msgstr "1 Cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:18
+msgid "2 Columns"
+msgstr "2 Cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:19
+msgid "3 Columns"
+msgstr "3 Cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:20
+msgid "4 Columns"
+msgstr "4 Cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:86
+msgid "9MAIL"
+msgstr "9MAIL"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:99
+msgid "9MAIL - WordPress Email Templates Designer"
+msgstr "9MAIL - WordPress Email Templates Designer"
+
+#. Name of the plugin
+msgid "9MAIL - WordPress Email Templates Designer Premium"
+msgstr "9MAIL - WordPress Email Templates Designer Premium"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:37
+msgid "[{site_title}] Action Confirmed: {request_type}"
+msgstr "[{site_title}] Thao tác đã xác nhận: {request_type}"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:30
+msgid "[{site_title}] Comment: {post_title}"
+msgstr "[{site_title}] Bình luận: {post_title}"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:26
+msgid "[{site_title}] Email Change Request"
+msgstr "[{site_title}] Yêu cầu thay đổi email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:29
+msgid "[{site_title}] Email Changed"
+msgstr "[{site_title}] Email đã thay đổi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:25
+msgid "[{site_title}] Login Details"
+msgstr "[{site_title}] Thông tin đăng nhập"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:35
+msgid "[{site_title}] New Admin Email Address"
+msgstr "[{site_title}] Địa chỉ email quản trị mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:33
+msgid "[{site_title}] New User Registration"
+msgstr "[{site_title}] Đăng ký tài khoản người dùng mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:27
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:34
+msgid "[{site_title}] Password Changed"
+msgstr "[{site_title}] Mật khẩu đã thay đổi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:28
+msgid "[{site_title}] Password Reset"
+msgstr "[{site_title}] Đặt lại mật khẩu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:32
+msgid "[{site_title}] Personal Data Export"
+msgstr "[{site_title}] Xuất dữ liệu cá nhân"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:36
+msgid "[{site_title}] Please moderate: {post_title}"
+msgstr "[{site_title}] Yêu cầu kiểm duyệt: {post_title}"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:31
+msgid "[{site_title}] {request_type}"
+msgstr "[{site_title}] {request_type}"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:537
+msgid "Add Email Subject"
+msgstr "Thêm Tiêu Đề Email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:90
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:128
+msgid "Add New"
+msgstr "Thêm Mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:58
+msgid "Add new"
+msgstr "Thêm mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:127
+msgid "Add New Block"
+msgstr "Thêm Block mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:89
+msgid "Add New Email Template"
+msgstr "Thêm Mẫu Email Mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:17
+msgid "Admin"
+msgstr "Quản trị viên"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:88
+msgid "All category"
+msgstr "Tất cả danh mục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:88
+msgid "All Emails"
+msgstr "Tất cả Emails"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:59
+msgid "Allow free shipping"
+msgstr "Cho phép miễn phí vận chuyển"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:108
+msgid "Auto add to cart in product URL"
+msgstr "Tự động thêm vào giỏ hàng trong URL sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:110
+msgid "Background"
+msgstr "Nền"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:45
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:52
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:59
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:66
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:73
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:80
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:87
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:94
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:102
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:109
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:116
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:123
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:130
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:137
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:12
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:80
+msgid "Best rated"
+msgstr "Được đánh giá tốt nhất"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:79
+msgid "Best seller"
+msgstr "Bán chạy nhất"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:31
+msgid "Billing address"
+msgstr "Địa chỉ giao hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:10
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:18
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:26
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:34
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:46
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:59
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:72
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:85
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:98
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:111
+msgid "Black"
+msgstr "Đen"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:53
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:66
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:79
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:92
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:105
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:118
+msgid "Black - White"
+msgstr "Đen - Trắng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:50
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:63
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:76
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:89
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:102
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:115
+msgid "Black border"
+msgstr "Viền đen"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:13
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:21
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:29
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:37
+msgid "Black/Border"
+msgstr "Đen/Có viền"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:14
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:22
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:30
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:38
+msgid "Black/White"
+msgstr "Đen/Trắng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:124
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:126
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:137
+msgid "Blocks"
+msgstr "Blocks"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:23
+msgid "Button"
+msgstr "Nút"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:54
+msgid "Categories"
+msgstr "Danh mục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:74
+msgid "Category"
+msgstr "Danh mục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:28
+msgid "Change admin email"
+msgstr "Thay đổi email quản trị viên"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:38
+msgid "Change password"
+msgstr "Thay đổi mật khẩu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:40
+msgid "Changed email notification"
+msgstr "Thông báo đã thay đổi email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:84
+msgid "Charracter limit"
+msgstr "Giới hạn ký tự"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:279
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:316
+msgid "Clear"
+msgstr "Loại bỏ"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:48
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:61
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:74
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:87
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:100
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:113
+msgid "Color"
+msgstr "Màu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:52
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:65
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:78
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:91
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:104
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:117
+msgid "Color - White"
+msgstr "Màu - Trắng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:51
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:64
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:77
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:90
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:103
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:116
+msgid "Color border"
+msgstr "Viền có màu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:83
+msgid "Column"
+msgstr "Cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:99
+msgid "Column ratio"
+msgstr "Tỷ lệ cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:41
+msgid "Comment notification"
+msgstr "Thông báo bình luận"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:13
+msgid "Components"
+msgstr "Thành phần"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:30
+msgid "Confirmed personal data"
+msgstr "Dữ liệu cá nhân đã xác nhận"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:36
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:15
+msgid "Content"
+msgstr "Nội dung"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:64
+msgid "Copy to draft"
+msgstr "Sao chép đến bản nháp"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:34
+msgid "Coupon"
+msgstr "Phiếu giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:46
+msgid "Coupon amount"
+msgstr "Giá trị phiếu giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:41
+msgid "Coupon type"
+msgstr "Loại mã ưu đãi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:78
+msgid "Cross sell"
+msgstr "Bán chéo"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:15
+msgid "Custom CSS"
+msgstr "CSS tùy chỉnh"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:103
+msgid "Customer note"
+msgstr "Ghi chú khách hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:470
+msgid "Date"
+msgstr "Ngày"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:64
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:49
+msgid "Default"
+msgstr "Mặc định"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:42
+msgid "Desktop & mobile (width >380px)"
+msgstr "Máy tính & điện thoại (rộng >380px)"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:46
+msgid "Direction"
+msgstr "Hướng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:45
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:58
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:71
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:84
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:97
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:110
+msgid "Disable"
+msgstr "Tắt"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:105
+msgid "Discount"
+msgstr "Giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:45
+msgid "Discount type"
+msgstr "Kiểu giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:39
+msgid "Divider"
+msgstr "Dải phân cách"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:94
+msgid "Do you want to change email template?"
+msgstr "Có muốn thay đổi mẫu email không?"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:490
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:71
+msgid "Edit"
+msgstr "Sửa"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:129
+msgid "Edit Block"
+msgstr "Sửa Block"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:165
+msgid "Edit column"
+msgstr "Sửa cột"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:91
+msgid "Edit Email Templates"
+msgstr "Sửa mẫu email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:14
+msgid "Editor"
+msgstr "Trình chỉnh sửa"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:37
+msgid "Email change request"
+msgstr "Yêu cầu thay đổi email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:468
+msgid "Email subject"
+msgstr "Tiêu đề email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:5
+msgid "Email type"
+msgstr "Loại email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:459
+msgid "Email was sent successfully"
+msgstr "Email đã được gửi thành công"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:109
+msgid "Enable"
+msgstr "Bật"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:55
+msgid "Exclude categories"
+msgstr "Loài trừ danh mục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:90
+msgid "Exclude posts"
+msgstr "Loại trừ bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:53
+msgid "Exclude products"
+msgstr "Loại trừ sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:61
+msgid "Exclude sale items"
+msgstr "Loại trừ sản phẩm ữu đãi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:43
+msgid "Existing coupon"
+msgstr "Phiếu giảm giá đang có"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:49
+msgid "Exit to DashBoard"
+msgstr "Quay về trang chủ"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:50
+msgid "Expire after x days"
+msgstr "Hết hạn sau x ngày"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:76
+msgid "Featured"
+msgstr "Nổi bật"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:527
+msgid "Filter by type"
+msgstr "Lọc theo loại"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:48
+msgid "Fixed cart discount"
+msgstr "Giảm giá cố định trong giỏ hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:49
+msgid "Fixed product discount"
+msgstr "Giảm giá cố định cho sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:111
+msgid "Font size(px)"
+msgstr "Cỡ chữ(px)"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:112
+msgid "Font weight"
+msgstr "Độ đậm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:44
+msgid "Generate coupon"
+msgstr "Tạo phiếu giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:101
+msgid "Horizontal"
+msgstr "Ngang"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:66
+msgid "Horizontal text"
+msgstr "Hiển thị theo chiều ngang"
+
+#. Author URI of the plugin
+msgid "https://villatheme.com"
+msgstr "https://villatheme.com"
+
+#. URI of the plugin
+msgid ""
+"https://villatheme.com/extensions/9mail-wordpress-email-templates-designer/"
+msgstr ""
+"https://villatheme.com/extensions/9mail-wordpress-email-templates-designer/"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:22
+msgid "Image"
+msgstr "Ảnh"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:89
+msgid "Include posts"
+msgstr "Bao gồm bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:60
+msgid "Individual use only"
+msgstr "Chỉ dùng cho cá nhân"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:70
+msgid "Last column width"
+msgstr "Chiều rộng cột cuối cùng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:14
+msgid "Layout"
+msgstr "Bố cục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:51
+msgid "Left to right"
+msgstr "Trái sang phải"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:57
+msgid "Limit usage to X items"
+msgstr "Giới hạn sử dụng cho sản phẩm X"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:453
+msgid "Mailing Error Found:"
+msgstr "Lỗi gửi thư được tìm thấy:"
+
+#. Description of the plugin
+msgid "Make your WordPress emails become professional."
+msgstr "Nâng cao sự chuyên nghiệp và bắt mắt của email WordPress của bạn"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:82
+msgid "Max row"
+msgstr "Hàng tối đa"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:52
+msgid "Maximum spend"
+msgstr "Giá trị tiêu dùng tối đa"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:37
+msgid "Menu bar"
+msgstr "Thanh menu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:51
+msgid "Minimum spend"
+msgstr "Giá trị tiêu dùng tối thiểu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:71
+msgid "Move to trash"
+msgstr "Bỏ vào thùng rác"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:81
+msgid "Newest"
+msgstr "Mới nhất"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:94
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:132
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:95
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:133
+msgid "Not found in Trash"
+msgstr "Không tìm thấy trong Thùng rác"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:469
+msgid "Note"
+msgstr "Ghi chú"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:29
+msgid "Notify moderator new comment"
+msgstr "Thông báo cho người kiểm duyệt có bình luận mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:26
+msgid "Notify user signup to admin"
+msgstr "Thông báo cho quản trị viên có người dùng đăng ký mới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:27
+msgid "Notify user's password change to admin"
+msgstr "Thông báo cho quản trị viên mật khẩu người dùng đã thay đổi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:75
+msgid "On sale"
+msgstr "Đang khuyến mãi"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:113
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:24
+msgid "Order detail"
+msgstr "Chi tiết đơn hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:96
+msgid "Order items"
+msgstr "Sản phẩm đặt hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:25
+msgid "Order subtotal"
+msgstr "Tạm tính"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:26
+msgid "Order total"
+msgstr "Tổng thanh toán"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:87
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:125
+msgid "Parent Email"
+msgstr "email cha"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:162
+msgid "Paste"
+msgstr "Dán"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:30
+msgid "Payment method"
+msgstr "Phương thức thanh toán"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:47
+msgid "Percentage discount"
+msgstr "Phần trăm giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:35
+msgid "Post"
+msgstr "Bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:92
+msgid "Post content"
+msgstr "Nội dụng bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:93
+msgid "Post distance"
+msgstr "Khoảng cách bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:91
+msgid "Post title"
+msgstr "Tiêu đề bài đăng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:84
+msgctxt "Post Type General Name"
+msgid "9MAIL - WordPress Email Templates Designer"
+msgstr "9MAIL - WordPress Email Templates Designer"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:122
+msgctxt "Post Type General Name"
+msgid "Blocks"
+msgstr "Blocks"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:85
+msgctxt "Post Type Singular Name"
+msgid "9MAIL - WordPress Email Templates Designer"
+msgstr "9MAIL - WordPress Email Templates Designer"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:123
+msgctxt "Post Type Singular Name"
+msgid "Block"
+msgstr "Block"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:8
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:38
+msgid "Preview"
+msgstr "Xem trước"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:15
+msgid "Preview width device screen width < 380px"
+msgstr "Xem trước với thiết bị có bề rộng màn hình < 380px"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:11
+msgid "Preview width device screen width > 380px"
+msgstr "Xem trước với thiết bị có bề rộng màn hình > 380px"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:69
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:106
+msgid "Price"
+msgstr "Giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:68
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:87
+msgid "Product distance"
+msgstr "Khoảng cách sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:86
+msgid "Product name"
+msgstr "Tên sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:85
+msgid "Product type"
+msgstr "Loại sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:33
+msgid "Products"
+msgstr "Sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:67
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:107
+msgid "Quantity"
+msgstr "Số lượng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:97
+msgid "Refunded fully"
+msgstr "Hoàn tiền toàn bộ"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:98
+msgid "Refunded partial"
+msgstr "Hoàn tiền một phần"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:73
+msgid "Related"
+msgstr "Liên quan đến"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:114
+msgid "Remove product link"
+msgstr "Xóa liên kết sản phẩm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:42
+msgid "Request personal data"
+msgstr "Yêu cầu dữ liệu cá nhân"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer.php:62
+msgid "require PHP version at least"
+msgstr "yêu cầu phiên bản PHP ít nhất"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer.php:66
+msgid "require WordPress version at least"
+msgstr "yêu cầu phiên bản WordPress ít nhất"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:39
+msgid "Reset password"
+msgstr "Đặt lại mật khẩu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:52
+msgid "Right to left"
+msgstr "Phải sang trái"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:13
+msgid "Sample"
+msgstr "Mẫu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:131
+msgid "Search"
+msgstr "Tìm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:21
+msgid "Search element"
+msgstr "Tìm kiếm phần tử"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:93
+msgid "Search Email Templates"
+msgstr "Tìm Mẫu Email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:95
+msgid "Select"
+msgstr "Chọn"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:42
+msgid "Select coupon"
+msgstr "Chọn phiếu giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:16
+msgid "Select email type"
+msgstr "Chọn loại email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:117
+msgid "Select layout"
+msgstr "Chọn bố cục"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:43
+msgid "Send personal data export"
+msgstr "Gửi dữ liêu cá nhân được xuất ra"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:26
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:50
+msgid "Send test email"
+msgstr "Gửi email thử nghiệm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:22
+msgid "Send to"
+msgstr "Gửi tới"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer.php:187
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/admin.php:34
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/admin.php:35
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:27
+msgid "Shipping"
+msgstr "Giao hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:32
+msgid "Shipping address"
+msgstr "Địa chỉ giao hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:29
+msgid "Shipping method"
+msgstr "Phương thức giao hàng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:110
+msgid "Show SKU"
+msgstr "Hiện mã SKU"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/utils.php:36
+msgid "Signup"
+msgstr "Đăng ký"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:38
+msgid "Social"
+msgstr "Mạng xã hội"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:102
+msgid "Socials"
+msgstr "Mạng xã hội"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:40
+msgid "Spacer"
+msgstr "Khoảng cách"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:72
+msgid "Style"
+msgstr "Thiết kế"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:104
+msgid "Subtotal"
+msgstr "Tạm tính"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:62
+msgid "Template"
+msgstr "Mẫu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:445
+msgid "test email template"
+msgstr "Thử nghiệm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:21
+msgid "Text"
+msgstr "Văn bản"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-editor.php:54
+msgid "Toggle admin menu"
+msgstr "Thu gọn trình quản trị viên"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:28
+msgid "Total"
+msgstr "Tổng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:63
+msgid "Translate text"
+msgstr "Dịch văn bản"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:77
+msgid "Up sell"
+msgstr "Bán thêm"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:130
+msgid "Update"
+msgstr "Cập nhật"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-builder.php:92
+msgid "Update Email Templates"
+msgstr "Cập nhật Mẫu Email"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:56
+msgid "Usage limit per coupon"
+msgstr "Giới hạn sử dụng cho mỗi mã giảm giá"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:58
+msgid "Usage limit per user"
+msgstr "Giới hạn sử dụng trên mỗi người dùng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-type.php:29
+msgid "User"
+msgstr "Người dùng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:100
+msgid "Vertical"
+msgstr "Dọc"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/i18n.php:65
+msgid "Vertical text"
+msgstr "Hiển thị theo chiều dọc"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/view/email-testing.php:46
+msgid "View mobile version (width < 380px)"
+msgstr "Xem trên thiết bị điện thoại (chiều rộng < 380px)"
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr "VillaTheme"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:11
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:19
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:27
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:35
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:47
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:60
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:73
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:86
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:99
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:112
+msgid "White"
+msgstr "Trắng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:54
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:67
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:80
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:93
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:106
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:119
+msgid "White - Color"
+msgstr "Trắng - Màu"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:49
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:62
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:75
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:88
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:101
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:114
+msgid "White border"
+msgstr "Viền trắng"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:15
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:23
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:31
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:39
+msgid "White/Black"
+msgstr "Trắng/Đen"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:12
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:20
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:28
+#:  
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/images.php:36
+msgid "White/Border"
+msgstr "Trắng/Có viền"
+
+#: D:/Git/9mail-wordpress-email-templates-designer/9mail-wordpress-email-templates-designer/inc/email-samples.php:24
+msgid "WordPress email template"
+msgstr "WordPress email template"

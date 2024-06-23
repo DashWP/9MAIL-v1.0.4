@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069) -->
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://docs.villatheme.com/xmlrpc.php">
+	<title>9MAIL – WordPress Email Templates Designer – VillaTheme Documentation</title>
+	<meta name="robots" content="max-image-preview:large">
+	<link rel="dns-prefetch" href="https://s.w.org/">
+	<link rel="alternate" type="application/rss+xml" title="VillaTheme Documentation » Feed" href="https://docs.villatheme.com/feed/">
+	<link rel="alternate" type="application/rss+xml" title="VillaTheme Documentation » Comments Feed" href="https://docs.villatheme.com/comments/feed/">
+	<script async="" src="assets/gtm.js"></script>
+	<script src="assets/849889435093091" async=""></script>
+	<script async="" src="assets/fbevents.js"></script>
+	<script type="text/javascript">
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+			"ext"    : ".png",
+			"svgUrl" : "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+			"svgExt" : ".svg",
+			"source" : {"concatemoji": "https:\/\/docs.villatheme.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}
+		};
+		/*! This file is auto-generated */
+		!function (e, a, t) {
+			var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d");
+
+			function s(e, t) {
+				var a = String.fromCharCode,
+					e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+				return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+			}
+
+			function c(e) {
+				var t = a.createElement("script");
+				t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+			}
+
+			for (o = Array("flag", "emoji"), t.supports = {
+				everything          : !0,
+				everythingExceptFlag: !0
+			}, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
+				if (!p || !p.fillText) return !1;
+				switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+					case"flag":
+						return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+					case"emoji":
+						return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+				}
+				return !1
+			}(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+			t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () {
+				t.DOMReady = !0
+			}, t.supports.everything || (n = function () {
+				t.readyCallback()
+			}, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+				"complete" === a.readyState && t.readyCallback()
+			})), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
+		}(window, document, window._wpemojiSettings);
+	</script>
+	<script src="assets/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="assets/style.min.css" type="text/css" media="all">
+	<style id="global-styles-inline-css" type="text/css">
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+			--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+			--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+			--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+			--wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+			--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+			--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+			--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+	</style>
+	<link rel="stylesheet" id="document-style-css" href="assets/style.css" type="text/css" media="all">
+	<script type="text/javascript" src="assets/jquery.min.js" id="jquery-core-js"></script>
+	<script type="text/javascript" src="assets/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+	<link rel="https://api.w.org/" href="https://docs.villatheme.com/wp-json/">
+	<link rel="alternate" type="application/json" href="https://docs.villatheme.com/wp-json/wp/v2/pages/7504">
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://docs.villatheme.com/xmlrpc.php?rsd">
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://docs.villatheme.com/wp-includes/wlwmanifest.xml">
+	<meta name="generator" content="WordPress 6.0">
+	<link rel="canonical" href="">
+	<link rel="shortlink" href="https://docs.villatheme.com/?p=7504">
+	<link rel="alternate" type="application/json+oembed" href="https://docs.villatheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdocs.villatheme.com%2F9mail-wordpress-email-templates-designer%2F">
+	<link rel="alternate" type="text/xml+oembed" href="https://docs.villatheme.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdocs.villatheme.com%2F9mail-wordpress-email-templates-designer%2F&amp;format=xml">
+	<style type="text/css">.recentcomments a {
+		display: inline !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}</style>
+	<style type="text/css" id="custom-background-css">
+		body.custom-background {
+			background-color: #81d742;
+		}
+	</style>
+</head>
+
+<body>
+<div id="documenter_sidebar">
+	<a href="https://docs.villatheme.com/" id="documenter_logo"> <br>
+		<img src="assets/logo.png" width="200px">
+	</a>
+	<ul id="documenter_nav" class="collapsible" data-collapsible="accordion">
+		<li class="active">
+			<a class="active collapsible-header current" href="#documenter_cover">Start</a>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#file_includes" title="FILE INCLUDES">FILE INCLUDES</a>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#installation_menu_7507" title="INTRODUCTION">INTRODUCTION</a>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#installation_menu_7508" title="DOWNLOAD AND INSTALLATION">DOWNLOAD AND INSTALLATION</a>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#installation_menu_7509" title="HOW TO USE">HOW TO USE</a>
+			<ul class="collapsible-body">
+				<li>
+					<a href="#installation_child_menu_8127" title="Build a new email template/Customize an available template">Build a new email template/Customize an available template</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8139" title="Attach a file to the template">Attach a file to the template</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8142" title="Preview &amp; Send test emails">Preview &amp; Send test emails</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8145" title="Import &amp; Export email template">Import &amp; Export email template</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8146" title="Email Background settings">Email Background settings</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8152" title="Assign email type; Languages; Add admin’s note; and Bulk edit templates">Assign email type; Languages; Add admin’s note; and Bulk edit templates</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#installation_menu_7510" title="HOW DOES IT WORK">HOW DOES IT WORK</a>
+			<ul class="collapsible-body">
+				<li>
+					<a href="#installation_child_menu_7517" title="EMAIL PANELS OVERVIEW">EMAIL PANELS OVERVIEW</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7519" title="BASIC CONTENTS">BASIC CONTENTS</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7520" title="Text">Text</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7521" title="Button">Button</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7539" title="Image">Image</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7540" title="Menu Bar">Menu Bar</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7541" title="Socials">Socials</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7542" title="Contact">Contact</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7543" title="Divider">Divider</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7544" title="Spacer">Spacer</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_7546" title="Default Content">Default Content</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8173" title="Post">Post</a>
+				</li>
+				<li>
+					<a href="#installation_child_menu_8176" title="Block">Block</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#installation_menu_8183" title="COMPATIBILITY">COMPATIBILITY</a>
+		</li>
+		<li>
+			<a class="collapsible-header" href="#page_section_menu_1641" title="Extra Information">Extra Information</a>
+		</li>
+	</ul>
+	<div id="documenter_copyright">Copyright Villatheme 2015-2022<br>
+	</div>
+</div>
+<div id="documenter_content">
+
+	<section id="documenter_cover">
+		<h1>9MAIL – WordPress Email Templates Designer</h1>
+		<div id="documenter_buttons">
+			<a target="_blank" href="https://villatheme.com/supports/forum/plugins/9mail-wordpress-email-templates-designer/" class="btn btn-primary btn-large"> Support</a><a target="_blank" href="1" class="btn btn-large"> Purchase</a>
+		</div>
+		<hr>
+
+		<p>Created: 04/2022</p>
+		<p>Last updated: 7/2022 – Updated version: 1.0.0</p>
+		<p>By: VillaTheme Thank you for using&nbsp;our plugin.</p>
+		<p>If you have any questions that are beyond the scope of this documentation, please feel free to request support at our
+			<a href="http://villatheme.com/supports">Support Forum</a>. Thanks so much!</p>
+	</section>
+
+	<section id="file_includes">
+		<div class="page-header"><h3>FILE INCLUDES</h3>
+			<hr class="notop">
+		</div>
+		<ul>
+			<li>
+				The plugin installable zip file 9mail-wordpress-email-templates-designer.zip
+			</li>
+		</ul>
+	</section>
+
+	<section id="installation_menu_7507">
+		<div class="page-header"><h3>INTRODUCTION</h3>
+			<hr class="notop">
+		</div>
+		<div><p>
+			<strong>9MAIL – WordPress Email Templates Designer</strong> is a powerful plugin for creating and customizing WordPress emails. WordPress emails are all in plain text and they can’t be edited much. Therefore, you would need tool to help you do that, customize the WordPress emails the way you want, add your ideal content, highlight your unique brand, wrap your heart and soul in a beautiful template, make it different and outstanding.
+		</p>
+			<p>That’s what <strong>9MAIL</strong> can do.</p>
+			<p>&nbsp;</p>
+			<h3><strong>Features of WordPress Email Templates Designer</strong></h3>
+			<div class="entry-content">
+				<div id="tab-description" class="plugin-description section">
+					<ul>
+						<li>
+							<strong>Drag-and-drop builder:</strong>&nbsp; The easy-to-use email template builder allows you to create professional and eye-catching WordPress email templates.
+						</li>
+						<li>
+							<strong>Layouts</strong>: Layouts can be added quickly by dragging and dropping appropriate layouts, available from 1 -4 columns.
+						</li>
+						<li>
+							<strong>Elements:</strong> All elements you need to build a complete WordPress emails are provided, full customization options for their appearance.
+						</li>
+						<li>
+							<strong>Custom CSS</strong>: Add your own custom CSS to the email template if the general options are not enough for you. Moreover, you can add custom CSS directly to the text element.
+						</li>
+						<li>
+							<strong>Unlimited Number of Rows:</strong> Unlimited rows can be added to the email template and include everything you need in the emails.
+						</li>
+						<li>
+							<strong>Direction: </strong>Based on your current language, make the email display from right to left, or left to right accordingly.
+						</li>
+						<li>
+							<strong>Live Preview of Changes:</strong> Visually observe emails by the preview, update any changes in the preview mode, integrate to see on the desktop, mobile.
+						</li>
+						<li><strong>Send Test Emails:</strong>&nbsp;Check the email design before the real sending.</li>
+						<li>
+							<strong>Display Dynamic Data with Placeholders:</strong> Displaying placeholders makes it easy to design templates. Placeholders such as customer name, site name, User name, Password, My account URL which will be replaced by real user/order data while sending the WordPress emails.
+						</li>
+						<li><strong>Support multilingual plugins: WPML, Polylang.&nbsp;</strong></li>
+						<li>
+							<strong>Import/Export email templates in a few taps that will reduce your work.&nbsp;</strong>
+						</li>
+						<li><strong>Build your template in no time with mutual blocks, and shortcodes.&nbsp;</strong>
+						</li>
+						<li><strong>Responsive and works perfectly on any devices.</strong></li>
+					</ul>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+			<h3>
+				<a href="#installation_child_menu_7519" rel="noopener"><strong>Elements in </strong><strong>WordPress Email Templates Designer</strong></a>
+			</h3>
+			<div class="entry-content">
+				<div id="tab-description" class="plugin-description section">
+					<ul>
+						<li>
+							<strong>Text</strong>: Add text content to the template and customize the font color, font size, alignment, border width, insert/edit link, insert/edit image, shortcodes, info icons, social icons, border style, border color, background color, text padding, and text margin.
+						</li>
+						<li>
+							<strong>Divider</strong>: Add a single line divider to the template and choose a style for the divider. Customize the style, width, height, color, alignment, margin and padding of the divider.
+						</li>
+						<li>
+							<strong>Socials:&nbsp;</strong>Add social icons to the email template, enter your ULRs in the placeholder including Facebook, Twitter, Instagram.
+						</li>
+						<li>
+							<strong>Image</strong>: Add an image to the email template and adjust its size and alignment, border style, border color, background color, text padding, and text margin.
+						</li>
+						<li>
+							<strong>Button:&nbsp;</strong>Add and customize the button: Name, the link of a button, style the border, alignment, background and padding.
+						</li>
+						<li>
+							<strong>Menu bar:&nbsp;</strong>Add and customize the menu bar or named the navigation bar that includes links to the most important sections of the site: Home, Shop, Contact…
+						</li>
+						<li><strong>Contact:&nbsp;</strong>Display contact information with icons on the email template.
+						</li>
+						<li>
+							<strong>Spacer</strong>: Add a space between other elements and customize its height, borders with style and color, and the background color.
+						</li>
+						<li>
+							<strong>Default content: </strong>If you are using a 3rd plugin, and the email contents of this 3rd plugin is not attached in WordPress default emails, but they create their own email templates.&nbsp; In this case, you can use the default template type.
+						</li>
+						<li>
+							<strong>Post</strong>: Add your suggested block posts of any categories you select to the email template.
+						</li>
+						<li>
+							<strong>Block</strong>: Build the mutual blocks that can be used among the template can reduce your workload significantly.
+						</li>
+					</ul>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+			<h3>
+				<a href="#:~:text=Publish%20the%20email-,3.%20Settings,-a.%20Directions" rel="noopener"><strong>Additional features </strong></a><strong>in </strong><strong>WordPress Email Templates Designer</strong>
+			</h3>
+			<ul>
+				<li><b>Actively support: </b>VillaTheme is always ready to support you!</li>
+				<li>
+					<strong>Add admin’s note to particular templates</strong>: A simple reminder of things you need to pay attention to those templates.
+				</li>
+				<li><strong>User-friendly</strong>:
+					<strong>9MAIL</strong> is simpler to use and always have the user in mind and add appropriate updates to improve the user experience.
+				</li>
+				<li><strong>Integration compatibility: </strong>Compatible with 3rd parties.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p class="">Take a look at this
+				<strong><a href="https://youtu.be/Rphm4GqqnAo" target="_blank" rel="noopener">short video</a></strong> to learn what 9MAIL can do.
+			</p>
+			<p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Rphm4GqqnAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+			<p>&nbsp;</p>
+		</div>
+	</section>
+	<section id="installation_menu_7508">
+		<div class="page-header"><h3>DOWNLOAD AND INSTALLATION</h3>
+			<hr class="notop">
+		</div>
+		<div><h3><strong>System Requires:</strong></h3>
+			<ul>
+				<li><strong>WordPress Version: 5.0 or higher</strong></li>
+				<li><strong>PHP 7.0 or higher</strong></li>
+			</ul>
+			<h3></h3>
+			<h3>Download Plugin:</h3>
+			<p>Go to&nbsp;<b>Plugin/</b><b>Add New</b>/<b>Upload Plugin</b>/<b>Choose file/</b> select plugin zip file /click “<b>Install Now</b>“/click “<b>Active plugin</b>“.
+			</p>
+			<p>
+				<a href="assets/install-1.png"><img class="alignnone wp-image-7513" src="assets/install-1.png" alt="" width="1000" height="407" srcset="assets/install-1.png 1300w, assets/install-1.png 300w, assets/install-1.png 1024w, assets/install-1.png 768w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+				<a href="assets/install-2.png"><img class="alignnone wp-image-7514" src="assets/install-2.png" alt="" width="1000" height="308" srcset="assets/install-2.png 1195w, assets/install-2.png 300w, assets/install-2.png 1024w, assets/install-2.png 768w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+			</p>
+			<p><b>Done!</b>&nbsp;Let’s start using the plugin.</p>
+			<p>&nbsp;</p>
+			<p>
+				<strong>Let’s visit our video guide on how to install and use 9MAIL – WordPress Email Templates Designer</strong>
+			</p>
+			<p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/4NMQaLrdnCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+		</div>
+	</section>
+	<section id="installation_menu_7509">
+		<div class="page-header"><h3>HOW TO USE</h3>
+			<hr class="notop">
+		</div>
+		<div><p>Right after you finish installing and activating
+			<strong>9MAIL</strong>, you’re provided with a list of all WordPress email templates that we build for you, of course, you can always re-design them all you want. Simply go to the plugin settings and let’s see what you can do to them.
+		</p>
+			<p>&nbsp;</p>
+			<p>
+				<a href="assets/9mail.png"><img class="alignnone size-full wp-image-8126" src="assets/9mail.png" alt="" width="1916" height="1116" srcset="assets/9mail.png 1916w, assets/9mail-300x175.png 300w, assets/9mail-1024x596.png 1024w, assets/9mail-768x447.png 768w, assets/9mail-1536x895.png 1536w" sizes="(max-width: 1916px) 100vw, 1916px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>Now, click to any template to modify them, or click the “Add new” button to build a whole new template.</p>
+			<p>&nbsp;</p>
+		</div>
+		<div>
+			<h4 id="installation_child_menu_8127" title="Build a new email template/Customize an available template">Build a new email template/Customize an available template</h4>
+			<p>First, let’s take a look at the elements that play important parts in making a complete email</p>
+			<p style="text-align: center;">
+				<img class="size-full wp-image-7530 alignnone" src="assets/padding.jpg" alt="" width="1000" height="407" srcset="assets/padding.jpg 1000w, assets/padding-300x122.jpg 300w, assets/padding-768x313.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">
+			</p>
+			<p>&nbsp;</p>
+			<p>
+				<strong>9MAIL – WordPress Email Templates Designer</strong> uses 3 main building blocks: Row, Column and elements.&nbsp;
+				<strong>Row</strong>&nbsp;are the largest building blocks, and inside them are groups of&nbsp;Columns<strong>.</strong>&nbsp;<strong>Columns</strong> are to cover outside elements.&nbsp;<strong>Elements</strong>&nbsp;are placed inside of columns.
+			</p>
+			<p>You control, edit duplicate, remove row, Columns with their handles.</p>
+			<p>
+				<a href="assets/pen_edit_pencil_write-128.png"><img class="alignnone wp-image-4647" src="assets/pen_edit_pencil_write-128.png" alt="" width="19" height="19"></a>To edit row, column padding.
+			</p>
+			<p>
+				<a href="assets/editor-copy-2-duplicate-outline-stroke-128.png"><img class="alignnone wp-image-4648" src="assets/editor-copy-2-duplicate-outline-stroke-128.png" alt="" width="18" height="18"></a>&nbsp;To duplicate row, column.
+			</p>
+			<p>
+				<a href="assets/rounded__share_copy_7-128.png"><img class="alignnone wp-image-4649" src="assets/rounded__share_copy_7-128.png" alt="" width="18" height="18"></a>To remove row, column and element.
+			</p>
+			<p>&nbsp;</p>
+			<p>Now, for the Layout, you need to select the layout according to necessity. These layouts are from 1 to 4 column in one rows, based on your requirements, select one to add elements into.</p>
+			<p>Simply drag the Layout from the Widget panel, or click the “Plus” button to add the layout you need.</p>
+			<p style="text-align: center;">
+				<img class="alignnone size-full wp-image-7531" src="assets/layout.jpg" alt="" width="1000" height="330" srcset="assets/layout.jpg 1000w, assets/layout-300x99.jpg 300w, assets/layout-768x253.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px">
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>Then start adding the element and edit the content, as well as its appearance: size, outline, style…</p>
+			<p>To add the element, drag them from the Widget panel to the place you want, like the image below:</p>
+			<p style="text-align: center;">
+				<img class="alignnone wp-image-8129" src="assets/drag-1024x500.png" alt="" width="1000" height="488" srcset="assets/drag-1024x500.png 1024w, assets/drag-300x146.png 300w, assets/drag-768x375.png 768w, assets/drag.png 1477w" sizes="(max-width: 1000px) 100vw, 1000px">
+			</p>
+			<p>&nbsp;</p>
+			<p>These are the general steps for how to build a new template. To customize one, it’s almost the same, it’s just you have an available template with lots of components, all you need is to modify them to meet your expectation.</p>
+			<p style="text-align: center;">
+				<img class="alignnone size-full wp-image-8130" src="assets/template.png" alt="" width="1109" height="743" srcset="assets/template.png 1109w, assets/template-300x201.png 300w, assets/template-1024x686.png 1024w, assets/template-768x515.png 768w" sizes="(max-width: 1109px) 100vw, 1109px">
+			</p>
+			<p>
+				<a href="assets/11656-200.png"><img class="alignnone wp-image-8132" src="assets/11656-200.png" alt="" width="20" height="20" srcset="assets/11656-200.png 200w, assets/11656-200.png 150w" sizes="(max-width: 20px) 100vw, 20px">
+				</a>Drag and drop: Left click and hold this button, and drag the layout to your ideal place, and drop it there
+			</p>
+			<p>
+				<a href="assets/1121289-200.png"><img class="alignnone wp-image-8133" src="assets/1121289-200.png" alt="" width="20" height="20" srcset="assets/1121289-200.png 200w, assets/1121289-200.png 150w" sizes="(max-width: 20px) 100vw, 20px">
+				</a>Edit: Clicking this button will lead you to the Editor area of that layout/component</p>
+			<p>
+				<a href="assets/4942566-200.png"><img class="alignnone wp-image-8134" src="assets/4942566-200.png" alt="" width="20" height="20" srcset="assets/4942566-200.png 200w, assets/4942566-200.png 150w" sizes="(max-width: 20px) 100vw, 20px">
+				</a>Duplicate: Clicking this button will double the current layout/component</p>
+			<p>
+				<a href="assets/image-21.png"><img class="alignnone wp-image-8136" src="assets/image-21.png" alt="" width="22" height="20">
+				</a>Copy: Click this button to copy the layout/component</p>
+			<p>
+				<a href="assets/4949708-200.png"><img class="alignnone wp-image-8137" src="assets/4949708-200.png" alt="" width="20" height="20" srcset="assets/4949708-200.png 200w, assets/4949708-200.png 150w" sizes="(max-width: 20px) 100vw, 20px">
+				</a>Paste: Place the layout/component you just copied</p>
+			<p>
+				<a href="assets/419363-200.png"><img class="alignnone wp-image-8138" src="assets/419363-200.png" alt="" width="20" height="20" srcset="assets/419363-200.png 200w, assets/419363-200.png 150w" sizes="(max-width: 20px) 100vw, 20px">
+				</a>Remove: Delete the current layout/component</p>
+			<p>For specific information of all elements – their usage, their customization options, … – when you want to edit, visit
+				<span style="color: #ff0000;"><strong><a style="color: #ff0000;" href="#installation_child_menu_7519">this documentation</a></strong></span>.
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8139" title="Attach a file to the template">Attach a file to the template</h4>
+			<p>You can attach files to the email template. When the email is sent, the files attached will be sent along with it.<br>
+				<strong>Note</strong>: These files must be a fixed instead of dynamical, which mean the file data does not change according to each user/admin’s data.
+			</p>
+			<p>Select the template you want to send with files &gt;&gt; Click “Add file” in the Attachment files</p>
+			<p>
+				<a href="assets/attach.png"><img class="alignnone size-full wp-image-8140" src="assets/attach.png" alt="" width="1766" height="848" srcset="assets/attach.png 1766w, assets/attach-300x144.png 300w, assets/attach-1024x492.png 1024w, assets/attach-768x369.png 768w, assets/attach-1536x738.png 1536w" sizes="(max-width: 1766px) 100vw, 1766px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>Then “Save”, now the file is attached and will be sent along with that email template.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8142" title="Preview &amp; Send test emails">Preview &amp; Send test emails</h4>
+			<p>Before getting ready to use the template, you can always preview them and even test with sending test emails to ensure they work properly. It’s done in the Testing section.</p>
+			<p>
+				<a href="assets/test.png"><img class="alignnone size-full wp-image-8143" src="assets/test.png" alt="" width="1775" height="835" srcset="assets/test.png 1775w, assets/test-300x141.png 300w, assets/test-1024x482.png 1024w, assets/test-768x361.png 768w, assets/test-1536x723.png 1536w" sizes="(max-width: 1775px) 100vw, 1775px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>In the “Preview” part, you can see how the email would look like on both desktop and mobile views.</p>
+			<p>And in the “Send to” part:</p>
+			<ol>
+				<li>Add your email address.</li>
+				<li>Click the “Send test email” button.</li>
+			</ol>
+			<p>You’ll receive a notification letting you know if the test email is sent successfully or not. It may look like this:</p>
+			<p style="text-align: center;">
+				<img class="alignnone wp-image-8144 size-large" src="assets/notification-1024x437.png" alt="" width="640" height="273" srcset="assets/notification-1024x437.png 1024w, assets/notification-1024x437.png 300w, assets/notification-1024x437.png 768w, assets/notification-1024x437.png 1536w, assets/notification-1024x437.png 1746w" sizes="(max-width: 640px) 100vw, 640px">
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8145" title="Import &amp; Export email template">Import &amp; Export email template</h4>
+			<p>There’s some situations when you would need to export a particular template, maybe to save your time re-making a new one on a different website. This function will help you with that.</p>
+			<p>In the “Data” section:</p>
+			<p><strong>Step 1:</strong> Click “Export”</p>
+			<p><strong>Step 2:</strong> Now the email data is exported to the blank field above, click “Copy”</p>
+			<p>
+				<strong>Step 3:</strong> You can import the copied data to a new blank template. In case you import these data to an available template, this data will overwrite the whole template and replace the old one.
+			</p>
+			<p>
+				<a href="assets/data.png"><img class="alignnone size-full wp-image-8150" src="assets/data.png" alt="" width="1791" height="836" srcset="assets/data.png 1791w, assets/data-300x140.png 300w, assets/data-1024x478.png 1024w, assets/data-768x358.png 768w, assets/data-1536x717.png 1536w" sizes="(max-width: 1791px) 100vw, 1791px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8146" title="Email Background settings">Email Background settings</h4>
+			<p>These settings include global attribute and background customization of the email template.</p>
+			<p>&nbsp;</p>
+			<h3>RESPONSIVE POINT</h3>
+			<p>If you view the email template via Preview mode, but you’re still not happy with how it looks on different screen. You may want to make the email on the desktop and mobile look the same, or perhaps you want elements on mobile look bigger than how they look on desktop.</p>
+			<p>Responsive point will help you with that. It allows your email content to flow freely across all screen resolutions and sizes, and renders it to look great on all devices.</p>
+			<p>
+				<a href="assets/responsive.png"><img class="alignnone size-full wp-image-8147" src="assets/responsive.png" alt="" width="1818" height="798" srcset="assets/responsive.png 1818w, assets/responsive-300x132.png 300w, assets/responsive-1024x449.png 1024w, assets/responsive-768x337.png 768w, assets/responsive-1536x674.png 1536w" sizes="(max-width: 1818px) 100vw, 1818px"></a>
+			</p>
+			<p><strong>Step 1</strong>: Click the “Background” button &gt;&gt; Global attributes</p>
+			<p><strong>Step 2</strong>: In the “Responsive point” field, change the value.</p>
+			<ul>
+				<li>If you want to make the email components look smaller on mobile, set a lower value.</li>
+				<li>Otherwise, set a higher value to make them look bigger</li>
+			</ul>
+			<p>You can’t view the change with the preview mode, but you can send a test email to check this, it shows immediately without having to hit the “Update” button.</p>
+			<p>&nbsp;</p>
+			<h3>WIDTH</h3>
+			<p>This option will manage the width of that email template. Add the email width you want to this field.</p>
+			<p>
+				<a href="assets/width.png"><img class="alignnone size-full wp-image-8148" src="assets/width.png" alt="" width="1787" height="722" srcset="assets/width.png 1787w, assets/width-300x121.png 300w, assets/width-1024x414.png 1024w, assets/width-768x310.png 768w, assets/width-1536x621.png 1536w" sizes="(max-width: 1787px) 100vw, 1787px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<h3>BACKGROUND COLOR / IMAGE</h3>
+			<p>Lastly, add the email image background/color you want.</p>
+			<p>
+				<a href="assets/COLOR-IMAGE.png"><img class="alignnone size-full wp-image-8149" src="assets/COLOR-IMAGE.png" alt="" width="1787" height="722" srcset="assets/COLOR-IMAGE.png 1787w, assets/COLOR-IMAGE-300x121.png 300w, assets/COLOR-IMAGE-1024x414.png 1024w, assets/COLOR-IMAGE-768x310.png 768w, assets/COLOR-IMAGE-1536x621.png 1536w" sizes="(max-width: 1787px) 100vw, 1787px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8152" title="Assign email type; Languages; Add admin’s note; and Bulk edit templates">Assign email type; Languages; Add admin’s note; and Bulk edit templates</h4>
+			<p>These functions would be helpful while building your email templates, it could save your time and reduce the workload if you use them right.</p>
+			<p>&nbsp;</p>
+			<h3>Assign email type</h3>
+			<p>If you select an available template in the Sample, you may not need this function. But it’ll help if you create a new email template.</p>
+			<p>After finish building your ideal email, you can assign the email type for it here. So when this type is triggered, this template can be sent.</p>
+			<p>
+				<a href="assets/email-type.png"><img class="alignnone size-full wp-image-8186" src="assets/email-type.png" alt="" width="1763" height="885" srcset="assets/email-type.png 1763w, assets/email-type-300x151.png 300w, assets/email-type-1024x514.png 1024w, assets/email-type-768x386.png 768w, assets/email-type-1536x771.png 1536w" sizes="(max-width: 1763px) 100vw, 1763px"></a>
+			</p>
+			<h3></h3>
+			<p>&nbsp;</p>
+			<h3>Languages – Support RTL languages</h3>
+			<p>If you’re building an email using RTL languages, for example: Arabic,…</p>
+			<p>Select this “Direction” option to match your language direction.</p>
+			<p>
+				<a href="assets/direction.png"><img class="alignnone size-full wp-image-8153" src="assets/direction.png" alt="" width="1781" height="764" srcset="assets/direction.png 1781w, assets/direction-300x129.png 300w, assets/direction-1024x439.png 1024w, assets/direction-768x329.png 768w, assets/direction-1536x659.png 1536w" sizes="(max-width: 1781px) 100vw, 1781px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h3>Languages – Support Multilingual plugins</h3>
+			<p>If you’re using a multilingual plugin, like WPML, or Polylang,… There’ll be a rule for you to manage the language applied to each particular email template.</p>
+			<p>
+				<a href="assets/polylang.png"><img class="alignnone size-full wp-image-8158" src="assets/polylang.png" alt="" width="1758" height="842" srcset="assets/polylang.png 1758w, assets/polylang-300x144.png 300w, assets/polylang-1024x490.png 1024w, assets/polylang-768x368.png 768w, assets/polylang-1536x736.png 1536w" sizes="(max-width: 1758px) 100vw, 1758px"></a>
+			</p>
+			<ul>
+				<li>Build different templates and assign them to one email. For example; you build 2 templates for the “Notify user signup to admin” email – one email has the content in English and the other has the content in French.</li>
+				<li>In each template, select the language to apply. When the action to trigger the email is done in that language, the template will be sent.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h3>Add admin’s note to template</h3>
+			<p>In some cases, you may want to leave a note to a particular template, to remind you (or other admins) of something that need to pay attention to.&nbsp; Add your personal note to this field</p>
+			<p>
+				<a href="assets/admin-note.png"><img class="alignnone size-full wp-image-8154" src="assets/admin-note.png" alt="" width="1781" height="764" srcset="assets/admin-note.png 1781w, assets/admin-note-300x129.png 300w, assets/admin-note-1024x439.png 1024w, assets/admin-note-768x329.png 768w, assets/admin-note-1536x659.png 1536w" sizes="(max-width: 1781px) 100vw, 1781px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>The note will be visible here</p>
+			<p>
+				<a href="assets/note.png"><img class="alignnone size-full wp-image-8155" src="assets/note.png" alt="" width="1754" height="700" srcset="assets/note.png 1754w, assets/note-300x120.png 300w, assets/note-1024x409.png 1024w, assets/note-768x306.png 768w, assets/note-1536x613.png 1536w" sizes="(max-width: 1754px) 100vw, 1754px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<h3>Bulk change the template status</h3>
+			<p>If you need to change the status of some templates, it can be done in the “All emails” list.</p>
+			<p><strong>Step 1:</strong> Select the templates to change their status.</p>
+			<p><strong>Step 2:</strong> In “Bulk action”, select “Edit”&nbsp; &gt;&gt; Click “Reply”</p>
+			<p><strong>Step 3</strong>: Choose the status to change to</p>
+			<p><strong>Step 4:</strong> Lastly, click “Update” to finish, or “Cancel” to stop the changing.</p>
+			<p>
+				<a href="assets/bulk.png"><img class="alignnone size-full wp-image-8156" src="assets/bulk.png" alt="" width="1743" height="872" srcset="assets/bulk.png 1743w, assets/bulk-300x150.png 300w, assets/bulk-1024x512.png 1024w, assets/bulk-768x384.png 768w, assets/bulk-1536x768.png 1536w" sizes="(max-width: 1743px) 100vw, 1743px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</section>
+	<section id="installation_menu_7510">
+		<div class="page-header"><h3>HOW DOES IT WORK</h3>
+			<hr class="notop">
+		</div>
+		<div></div>
+		<div><h4 id="installation_child_menu_7517" title="EMAIL PANELS OVERVIEW">EMAIL PANELS OVERVIEW</h4>
+			<p>In the email template editor page, there are 3 blocks:</p>
+			<ul>
+				<li>
+					<strong>Widget panel</strong>: Contains components, layouts; editor zone for each component and layout; and custom CSS field.
+				</li>
+				<li><strong>Editing area</strong>: Build your email here.</li>
+				<li><strong>Settings</strong>: Contains additional options/rules.</li>
+			</ul>
+			<p>
+				<a href="assets/panel-1.png"><img class="alignnone wp-image-7526 size-full" src="assets/panel-1.png" alt="" width="1370" height="1000" srcset="assets/panel-1.png 1370w, assets/panel-1-300x219.png 300w, assets/panel-1-1024x747.png 1024w, assets/panel-1-768x561.png 768w" sizes="(max-width: 1370px) 100vw, 1370px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p><span style="color: #ff0000;"><strong>1. Widget panel area &amp; Editing area</strong></span></p>
+			<p>
+				<a href="assets/widget-panel-and-editing-area.png"><img class="alignnone size-full wp-image-7524" src="assets/widget-panel-and-editing-area.png" alt="" width="1000" height="367" srcset="assets/widget-panel-and-editing-area.png 1000w, assets/widget-panel-and-editing-area-300x110.png 300w, assets/widget-panel-and-editing-area-768x282.png 768w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>1.&nbsp;<strong>Components</strong>: The panel of components helps you work with options, in order to drag and drop layout and contents to the editing space.
+			</p>
+			<p>2.&nbsp;<strong>Editor</strong>: The editor panel will appear when you are working with an element and allow you to customize such us the borders, background color, padding, margin…
+			</p>
+			<p>3.&nbsp;<b>Custom CSS</b>:&nbsp;<b data-stringify-type="bold">&nbsp;</b>You can add your own CSS code to design on the front-end as you want.
+			</p>
+			<p>4.&nbsp;<b>Email Subject</b>: Add email subject, customize easily with variety of shortcodes.</p>
+			<p>5.&nbsp;<strong>Edit space:&nbsp;</strong>The area displays the email content you are editing.</p>
+			<p>6.&nbsp;<strong>Background color</strong>: insert background for email. You can add images and customize the color.
+			</p>
+			<p>7.&nbsp;<strong>Select layout button:&nbsp;</strong>Click to add a new layout quickly.</p>
+			<p>&nbsp;</p>
+			<p><strong><span style="color: #ff0000;">2. Actions with current email template.</span></strong></p>
+			<p>At the left bottom of the email editing page, you can choose to interact with the email:</p>
+			<p>
+				<a href="assets/action.jpg"><img class="alignnone size-full wp-image-7525" src="assets/action.jpg" alt="" width="330" height="45" srcset="assets/action.jpg 330w, assets/action-300x41.jpg 300w" sizes="(max-width: 330px) 100vw, 330px"></a>
+			</p>
+			<table>
+				<tbody>
+				<tr>
+					<td>1. Exit to Dashboard</td>
+					<td>4. Copy to draft</td>
+				</tr>
+				<tr>
+					<td>2. Toggle admin menu</td>
+					<td>5. Move to trash</td>
+				</tr>
+				<tr>
+					<td>3. Add new email template</td>
+					<td>6. Publish the email</td>
+				</tr>
+				</tbody>
+			</table>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7519" title="BASIC CONTENTS">BASIC CONTENTS</h4>
+			<p><strong>9MAIL</strong> provides 11 basic contents that can be used in a WordPress email.</p>
+			<h4 id="installation_child_menu_7520" title="Text">Text</h4>
+			<p>The&nbsp;<strong>Text element</strong>&nbsp;gives you more styling options that let you change settings like font weight, line height, letter spacing, alignment and more.
+			</p>
+			<p><strong>A. Text Editor</strong></p>
+			<p>
+				<a href="assets/text-editor.png"><img class="alignnone size-full wp-image-7535" src="assets/text-editor.png" alt="" width="315" height="456" srcset="assets/text-editor.png 315w, assets/text-editor-207x300.png 207w" sizes="(max-width: 315px) 100vw, 315px"></a>
+			</p>
+			<ol>
+				<li><strong>Typography</strong>: Set the typography options for the text – Bold; Italic; or Underline
+				</li>
+				<li><strong>Alignment</strong>: Align the text to the left, right, center, or justified</li>
+				<li><strong>Link:</strong> Mark particular text, and insert/edit link.</li>
+				<li><strong>Image</strong>: Insert/Edit image.</li>
+				<li><strong>Font size</strong>: Set font size for the text.</li>
+				<li><strong>Text Color</strong>: Choose the color of the text.</li>
+				<li><strong>Background Color</strong>: Choose the background color for the text.</li>
+				<li>
+					<b>Information icons: </b>List of information icons you can use, select the icon you want in this list.
+				</li>
+				<li><b>Social icons: </b>List of social icons you can use, select the icon you want in this list.</li>
+				<li>
+					<strong>Shortcode</strong>: List of shortcodes you can use, select the shortcode you want in this list.
+				</li>
+				<li><strong>Font-family:</strong>&nbsp;Choose the font you want the text to be displayed</li>
+			</ol>
+			<p>&nbsp;</p>
+			<p>You can edit the “Text” element with HTML tags by selecting the “Text” tab that’s next to the “Visual” tab</p>
+			<p>
+				<a href="assets/text-html-editor.png"><img class="alignnone size-full wp-image-7536" src="assets/text-html-editor.png" alt="" width="321" height="416" srcset="assets/text-html-editor.png 321w, assets/text-html-editor-231x300.png 231w" sizes="(max-width: 321px) 100vw, 321px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p><strong>B. Style</strong></p>
+			<p>You can style the text includes: Line height (px); Background; Padding; Border (Width, Radius)</p>
+			<p>
+				<a href="assets/text.png"><img class="alignnone size-full wp-image-8162" src="assets/text.png" alt="" width="287" height="793" srcset="assets/text.png 287w, assets/text-109x300.png 109w" sizes="(max-width: 287px) 100vw, 287px"></a>
+			</p>
+			<ul>
+				<li>
+					<strong>Alignment:</strong>&nbsp;Tick it if you want to show the text at the center on the mobile screen
+				</li>
+				<li><strong>Line height (px):&nbsp;</strong>Type value for the height of text line.</li>
+				<li><strong>Background</strong>: Set Image and color for text background.</li>
+				<li>
+					<strong>Padding</strong>: Type space between the border of&nbsp;<label class="viwec-control-label">the text column</label>&nbsp;and the content inside&nbsp;it.
+				</li>
+				<li>
+					<b>Border: </b>Control the border width of each border line, border radius of each corner, and the color for the border.
+				</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7521" title="Button">Button</h4>
+			<p>The&nbsp;<strong>Button element </strong>helps you easily design and customize buttons without the need for any other plugins or shortcodes.
+			</p>
+			<p><strong>A. Content</strong></p>
+			<p>
+				<a href="assets/button-content-1.jpg"><img class="alignnone wp-image-4667 size-full" src="assets/button-content-1.jpg" alt="" width="361" height="270" srcset="assets/button-content-1.jpg 361w, assets/button-content-1-300x224.jpg 300w" sizes="(max-width: 361px) 100vw, 361px"></a>
+			</p>
+			<ol>
+				<li>Enter the button’s text and you can add (<a href="assets/glyph-30-128.png"><img class="alignnone wp-image-4666" src="assets/glyph-30-128.png" alt="" width="17" height="17"></a>)shortcode if you need
+				</li>
+				<li>Set the URL for the button’s link.</li>
+			</ol>
+			<p><strong>B. Style&nbsp;</strong></p>
+			<p>&nbsp;</p>
+			<p>
+				<a href="assets/b.png"><img class="alignnone wp-image-8163 size-full" src="assets/b.png" alt="" width="290" height="681" srcset="assets/b.png 290w, assets/b-128x300.png 128w" sizes="(max-width: 290px) 100vw, 290px"></a>
+			</p>
+			<p>You can style the button includes:</p>
+			<ul>
+				<li>
+					<strong>Border</strong>: Border width; Border radius; Border color; Border style; Button color; and Button width.
+				</li>
+				<li><strong>Text</strong>: Font size (px); Font weight; Color;
+					<label class="viwec-control-label">Line height (px).</label></li>
+				<li><strong>Alignment</strong>: Align the text to the left, right, or center.</li>
+				<li><strong>Margin</strong> (px):&nbsp;Left; Top; Right; Bottom.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7539" title="Image">Image</h4>
+			<p>The&nbsp;<strong>Image element </strong>helps you display images in the email template.</p>
+			<p>
+				<a href="assets/download-17.png"><img class="alignnone wp-image-6015 size-full" src="assets/download-17.png" alt="" width="292" height="787" srcset="assets/download-17.png 292w, assets/download-17-111x300.png 111w" sizes="(max-width: 292px) 100vw, 292px"></a>
+			</p>
+			<p><strong>A. Content</strong></p>
+			<p><strong>Image</strong> – Upload an image like featured image, Site Logo, and Author Profile Picture.</p>
+			<ul>
+				<li>URL: Add and URL links to the picture in this field.</li>
+				<li>Alt: An alternative name for the picture or a description, it will also link to the picture when click it.</li>
+			</ul>
+			<p><strong>B Style</strong></p>
+			<ul>
+				<li><strong>Image Size</strong>: Choose the size of the image (Width px)</li>
+				<li><strong>Alignment</strong>:&nbsp;Set the image Alignment: left, right, center.</li>
+				<li>
+					<strong>Padding</strong>: Type space between the border of&nbsp;<label class="viwec-control-label">the image column</label>&nbsp;and the content inside&nbsp;it.
+				</li>
+				<li><strong>Background</strong>: Set Image and color for image background if you need.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7540" title="Menu Bar">Menu Bar</h4>
+			<p>The&nbsp;<strong>Menu bar element </strong>allows you to create menu bar in the template, containing a list of maximum 4 items, with text and URL link. In a real email, when user clicks to the text of an item, they’ll be redirected to the link assigned to that item.
+			</p>
+			<p><strong>A. Content</strong></p>
+			<p>
+				<a href="assets/menu-bar-content.jpg"><img class="alignnone wp-image-4673 size-full" src="assets/menu-bar-content.jpg" alt="" width="357" height="538" srcset="assets/menu-bar-content.jpg 357w, assets/menu-bar-content-199x300.jpg 199w" sizes="(max-width: 357px) 100vw, 357px"></a>
+			</p>
+			<ul>
+				<li><strong>Text</strong>: Give the anchor a name.</li>
+				<li><strong>Link</strong>: Add an URL link to the item in this field.</li>
+			</ul>
+			<p><strong>B. Style</strong></p>
+			<p>
+				<a href="assets/bar.png"><img class="alignnone wp-image-8167" src="assets/bar.png" alt="" width="400" height="916" srcset="assets/bar.png 289w, assets/bar-131x300.png 131w" sizes="(max-width: 400px) 100vw, 400px"></a>
+			</p>
+			<ul>
+				<li><strong>Direction</strong>: Show the item list of the bar horizontally or vertically.</li>
+				<li>
+					<strong>Text</strong>: Font size (px); Font weight; Color;&nbsp;<label class="viwec-control-label">Line height (px).</label>
+				</li>
+				<li><strong>Alignment</strong>: Align the text to the left, right, center.</li>
+				<li>
+					<strong>Padding</strong>: Type space between the border of&nbsp;<label class="viwec-control-label">the menu bar column</label>&nbsp;and the content inside&nbsp;it.
+				</li>
+				<li><strong>Background</strong>: Set Image and color for menu background if it is necessary.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7541" title="Socials">Socials</h4>
+			<p>The&nbsp;<strong>Socials </strong>component lets you add your social media icons and the link redirected to them. Currently, you can add social icons of: Facebook, Twitter, Instagram, Youtube, Linkedin, Whatsapp.
+			</p>
+			<p><strong>A. Content</strong></p>
+			<p>
+				<a href="assets/Social-content.jpg"><img class="alignnone wp-image-4675 size-full" src="assets/Social-content.jpg" alt="" width="359" height="547" srcset="assets/Social-content.jpg 359w, assets/Social-content-197x300.jpg 197w" sizes="(max-width: 359px) 100vw, 359px"></a>
+			</p>
+			<p>* Add a Social network icon, use the Icon Library to choose the Social Network icon of your choice, and enter a link URL to the social network.</p>
+			<p><strong>B Style</strong></p>
+			<p>
+				<a href="assets/Screenshot-3.png"><img class="alignnone wp-image-6154 size-full" src="assets/Screenshot-3.png" alt="" width="283" height="509" srcset="assets/Screenshot-3.png 283w, assets/Screenshot-3-167x300.png 167w" sizes="(max-width: 283px) 100vw, 283px"></a>
+			</p>
+			<ul>
+				<li><strong>Direction</strong>: Show your media social icons horizontally or vertically.</li>
+				<li><strong>Width:</strong> Control the width of icons by changing the value in this field.</li>
+				<li><strong>Alignment</strong>: Align the text to the left, right, center.</li>
+				<li>
+					<strong>Padding</strong>: Type space between the border of&nbsp;<label class="viwec-control-label">the social column</label>&nbsp;and the content inside&nbsp;it.
+				</li>
+				<li><strong>Background</strong>: Set Image or color for social background if it is necessary.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7542" title="Contact">Contact</h4>
+			<p>Help your customers reach out for you easier with the <strong>Contact</strong> component.</p>
+			<p><strong>A. Content</strong></p>
+			<p>
+				<a href="assets/download-26.png"><img class="alignnone wp-image-6037 size-full" src="assets/download-26.png" alt="" width="294" height="579" srcset="assets/download-26.png 294w, assets/download-26-152x300.png 152w" sizes="(max-width: 294px) 100vw, 294px"></a>
+			</p>
+			<p>– <strong>Home</strong></p>
+			<ul>
+				<li>
+					<strong>Icon</strong>: Add the home icon format: Black; White; White/border; Black/border; Black/White; White/Black.
+				</li>
+				<li>
+					<strong>Text</strong>: Enter text you want to your homepage to be displayed, it can be an URL link or your homepage name.
+				</li>
+				<li><strong>URL</strong>: Enter a link URL of your homepage.</li>
+			</ul>
+			<p>– <strong>Email</strong></p>
+			<ul>
+				<li>
+					<strong>Icon</strong>: Add the Email icon format: Black; White; White/border; Black/border; Black/White; White/Black.
+				</li>
+				<li><strong>Email</strong>: An email type. Includes validation for email.</li>
+			</ul>
+			<p>– <strong>Phone</strong></p>
+			<ul>
+				<li>
+					<strong>Icon</strong>: Add the Phone icon format: Black; White; White/border; Black/border; Black/White; White/Black.
+				</li>
+				<li><strong>Number</strong>: A telephone number type.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p><strong>B. Style</strong></p>
+			<p>
+				<a href="assets/contact.png"><img class="alignnone wp-image-8170" src="assets/contact.png" alt="" width="350" height="664" srcset="assets/contact.png 291w, assets/contact-158x300.png 158w" sizes="(max-width: 350px) 100vw, 350px"></a>
+			</p>
+			<ul>
+				<li>
+					<strong>Text</strong>: Font size (px); Font weight; Color;&nbsp;<label class="viwec-control-label">Line height (px).</label>
+				</li>
+				<li><strong>Alignment</strong>: Align the text to the left, right, center.</li>
+				<li>
+					<strong>Padding</strong>: Type space between the border of&nbsp;<label class="viwec-control-label">the contact column</label>&nbsp;and the content inside&nbsp;it.
+				</li>
+				<li><strong>Background</strong>: Set Image or&nbsp; color for contact background if it is necessary.
+				</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7543" title="Divider">Divider</h4>
+			<p>The <strong>Divider</strong> component allows you to add styled horizontal lines to divide your content.
+			</p>
+			<p>
+				<a href="assets/download-27.png"><img class="alignnone wp-image-6039 size-full" src="assets/download-27.png" alt="" width="293" height="463" srcset="assets/download-27.png 293w, assets/download-27-190x300.png 190w" sizes="(max-width: 293px) 100vw, 293px"></a>
+			</p>
+			<ul>
+				<li>
+					<strong>Border</strong>: Color – Choose the color of the divider; Width – Control the width of the divider.
+				</li>
+				<li><strong>Padding</strong>: Left; Top; Right; Bottom.</li>
+				<li><strong>Background</strong>: Set Image or color for divider background if it is necessary.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7544" title="Spacer">Spacer</h4>
+			<p>The <strong>Spacer&nbsp;</strong>component creates a block of space anywhere on your email.</p>
+			<p>
+				<a href="assets/download-28.png"><img class="alignnone wp-image-6040 size-full" src="assets/download-28.png" alt="" width="295" height="228"></a>
+			</p>
+			<p><b>Height</b>: Set the amount of vertical space.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_7546" title="Default Content">Default Content</h4>
+			<p>All contents of WordPress emails will be displayed in the default content of the email template. You can modify the attributes of the email content in the paragraph section.</p>
+			<p>Go to the link section to modify some attributes of the link in email if needed.</p>
+			<p>
+				<a href="assets/default-element.png"><img class="alignnone wp-image-7575" src="assets/default-element.png" alt="" width="1000" height="574" srcset="assets/default-element.png 1318w, assets/default-element.png 300w, assets/default-element.png 1024w, assets/default-element.png 768w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>
+				<strong>Note</strong>: If you don’t want to use this default template for an email, let’s add this shortcode
+				<code>{{ignore_9mail}}</code> to that email content.</p>
+			<p>For example, if you don’t want to use the template of the WordPress Email Templates Designer plugin for the email winning of WordPress Lucky Wheel plugin, in the Email setting of the lucky wheel plugin, insert this shortcode into the email content:</p>
+			<p>
+				<a href="assets/default.png"><img class="alignnone size-full wp-image-7606" src="assets/default.png" alt="" width="1131" height="702" srcset="assets/default.png 1131w, assets/default-300x186.png 300w, assets/default-1024x636.png 1024w, assets/default-768x477.png 768w" sizes="(max-width: 1131px) 100vw, 1131px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8173" title="Post">Post</h4>
+			<p>Use the Post component to display the blog posts on your website in the email and link to those posts.</p>
+			<p><strong>A. Content</strong></p>
+			<p>
+				<a href="assets/download-40.png"><img class="alignnone wp-image-6067 size-full" src="assets/download-40.png" alt="" width="289" height="408" srcset="assets/download-40.png 289w, assets/download-40-213x300.png 213w" sizes="(max-width: 289px) 100vw, 289px"></a>
+			</p>
+			<p>–
+				<strong>Categories</strong>: Your posts are assigned to different categories, select all/one particular category you want to show the posts of it.
+			</p>
+			<p>–
+				<strong>Include/Exclude posts</strong>: In the categories you select above, show posts in the “Include posts” field, and ignore the post in the “Exclude posts” field.
+			</p>
+			<p>– <strong>Max row:</strong> Show the posts in how many rows.</p>
+			<p>– <strong>Column</strong>: Number of columns in one row, each column contains one post.</p>
+			<p>&nbsp;</p>
+			<p><strong>* For example:</strong></p>
+			<p>&nbsp;</p>
+			<p style="text-align: center;">
+				<img class="alignnone size-full wp-image-8174" src="assets/1-row-4-columns.png" alt="" width="1304" height="509" srcset="assets/1-row-4-columns.png 1304w, assets/1-row-4-columns-300x117.png 300w, assets/1-row-4-columns-1024x400.png 1024w, assets/1-row-4-columns-768x300.png 768w" sizes="(max-width: 1304px) 100vw, 1304px">
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p><strong>B. Style&nbsp;</strong></p>
+			<p>
+				<a href="assets/Screenshot-15.png"><img class="alignnone wp-image-6178 size-full" src="assets/Screenshot-15.png" alt="" width="297" height="710" srcset="assets/Screenshot-15.png 297w, assets/Screenshot-15-125x300.png 125w" sizes="(max-width: 297px) 100vw, 297px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>– <strong>Post title:</strong></p>
+			<ul>
+				<li>Limit the number of characters on the post title.</li>
+				<li>Text:&nbsp;Font size (px); Font weight; Color;&nbsp;<label class="viwec-control-label">Line height (px)
+					<label class="viwec-control-label">and Font-family</label> of the post title in the post.</label>
+				</li>
+			</ul>
+			<p>– <strong>Post content</strong>:</p>
+			<ul>
+				<li>Limit the number of characters in the content</li>
+				<li>Text: Font size (px); Font weight; Color;
+					<label class="viwec-control-label">Line height (px)
+						<label class="viwec-control-label">and Font-family</label> of the post conten<label class="viwec-control-label">t.</label></label>
+				</li>
+			</ul>
+			<p>– <strong>Post distance</strong> (px): The vertical distance among post images.</p>
+			<p>&nbsp;</p>
+			<p>
+				<a href="assets/post.png"><img class="alignnone wp-image-8175" src="assets/post.png" alt="" width="300" height="689" srcset="assets/post.png 288w, assets/post-131x300.png 131w" sizes="(max-width: 300px) 100vw, 300px"></a>
+			</p>
+			<p>– <strong>Alignment</strong>: Align the posts to left, right, or center.</p>
+			<p>– <strong>Background</strong>: Set Image or color for post background.</p>
+			<p>
+				<strong>– Border: </strong>Manage the border width of each border line, border radius of each corner, and the border color.
+			</p>
+			<p>– <strong>Margin</strong>&nbsp;(px):&nbsp;Left; Top; Right; Bottom.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h4 id="installation_child_menu_8176" title="Block">Block</h4>
+			<p>The
+				<strong>Block</strong> component lets you create your mutual parts that can be added to different templates, which helps you build your email in no time.
+			</p>
+			<p>To use the <strong>Block</strong> component, first, you need to create your blocks.</p>
+			<p>Go to <strong>9MAIL</strong> &gt;&gt; Blocks</p>
+			<p>The plugin provides you 2 samples: Header block and Footer block, which are quite common in a typical email.&nbsp; Now, click “Add new” to create a new block, or click the block title to edit it.</p>
+			<p>
+				<a href="assets/blcok.png"><img class="alignnone size-full wp-image-8177" src="assets/blcok.png" alt="" width="1899" height="415" srcset="assets/blcok.png 1899w, assets/blcok-300x66.png 300w, assets/blcok-1024x224.png 1024w, assets/blcok-768x168.png 768w, assets/blcok-1536x336.png 1536w" sizes="(max-width: 1899px) 100vw, 1899px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p><strong>EDIT BLOCKS</strong></p>
+			<p>Just like building an email, to build a block, you can drag and drop layouts and components, then edit them.</p>
+			<p>Of course, you can assign the language direction, and apply language rule to it if you’re using a multilingual plugin.</p>
+			<p>But in the block editor, there’s no available samples for you to choose from. And you can’t manage the responsive point, or add the image/select color for its background, either. These values will inherit from the template that the block is added to.</p>
+			<p>
+				<a href="assets/block.png"><img class="alignnone size-full wp-image-8178" src="assets/block.png" alt="" width="1765" height="899" srcset="assets/block.png 1765w, assets/block-300x153.png 300w, assets/block-1024x522.png 1024w, assets/block-768x391.png 768w, assets/block-1536x782.png 1536w" sizes="(max-width: 1765px) 100vw, 1765px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p><strong>ADD BLOCK TO THE EMAIL</strong></p>
+			<p>After you’re happy with the blocks, go to the template you want to insert them.</p>
+			<p>In the template, simply drag the “<strong>Block</strong>” component</p>
+			<p>
+				<a href="assets/drag-h.png"><img class="alignnone size-full wp-image-8179" src="assets/drag-h.png" alt="" width="1765" height="838" srcset="assets/drag-h.png 1765w, assets/drag-h-300x142.png 300w, assets/drag-h-1024x486.png 1024w, assets/drag-h-768x365.png 768w, assets/drag-h-1536x729.png 1536w" sizes="(max-width: 1765px) 100vw, 1765px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>And select a particular block in your list of created blocks</p>
+			<p>
+				<a href="assets/select.png"><img class="alignnone size-full wp-image-8180" src="assets/select.png" alt="" width="1776" height="843" srcset="assets/select.png 1776w, assets/select-300x142.png 300w, assets/select-1024x486.png 1024w, assets/select-768x365.png 768w, assets/select-1536x729.png 1536w" sizes="(max-width: 1776px) 100vw, 1776px"></a>
+			</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</section>
+	<section id="installation_menu_8183">
+		<div class="page-header"><h3>COMPATIBILITY</h3>
+			<hr class="notop">
+		</div>
+		<div><p>Below is the list of plugins that are compatible with 9MAIL – WordPress Email Templates Designer.</p>
+			<p>&nbsp;</p>
+			<p style="text-align: center;">
+				<img class="alignnone size-full wp-image-8185" src="assets/compa.png" alt="" width="994" height="187" srcset="assets/compa.png 994w, assets/compa-300x56.png 300w, assets/compa-768x144.png 768w" sizes="(max-width: 994px) 100vw, 994px">
+			</p>
+		</div>
+	</section>
+	<section id="page_section_menu_1641">
+		<div class="page_section-header"><h3>Extra Information</h3>
+			<hr class="notop">
+		</div>
+		<div><p><span style="color: #008000;">Thank you for your attention! </span></p>
+			<p>
+				<span style="color: #008000;">If you have any question, please create a topic at our&nbsp;<a style="color: #008000;" href="http://villatheme.com/supports/" target="_blank" rel="noopener noreferrer">FORUM</a>, we will support within 24 hours.</span>
+			</p>
+		</div>
+	</section>
+</div>
+
+
+<script type="text/javascript" src="assets/jquery.js" id="document-jquery-js"></script>
+<script type="text/javascript" src="assets/jquery.scrollTo.js" id="document-jquery.scrollTo-js"></script>
+<script type="text/javascript" src="assets/jquery.easing.js" id="document-jquery.easing-js"></script>
+<script type="text/javascript" src="assets/script.js" id="document-script-js"></script>
+<script type="text/javascript" src="assets/collapsible.js" id="document-collapsible-js"></script>
+
+</body>
+</html>
