@@ -1,2 +1,2 @@
 # 9MAIL-v1.0.4
-WordPress Email Templates Designer
+WordPress Email Templates Designer is a useful tool for creating and customizing WordPress emails. If the default WordPress email template appears plain to you and you want to customize them, this is what you need. With no coding knowledge required, you can easily drag and drop, edit, and customize the layouts/contents within the email templates. Try our plugin to make the template look friendly and match your store design, and easily customize WordPress emails sent to customers.
